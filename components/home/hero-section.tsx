@@ -58,21 +58,23 @@ export function HeroSection() {
 						variants={fadeIn('up', 0.2)}
 						className="text-3xl md:text-4xl font-bold mb-4 text-primary"
 					>
-						Computer Science Engineering
+						hi my name is
 					</motion.h2>
 
 					<motion.h1
 						variants={fadeIn('up', 0.3)}
 						className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight"
 					>
-						<span className="text-gradient">John Doe's</span> Portfolio
+						<span className="text-gradient">Kyra Shi</span> 
 					</motion.h1>
 
 					<motion.p
 						variants={fadeIn('up', 0.5)}
-						className="mt-6 text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto"
+						className="mt-6 text-base md:text-2xl text-muted-foreground max-w-3xl mx-auto"
 					>
-						A showcase of my projects, skills, and achievements in the field of engineering.
+						I’m a junior at the University of Southern California, studying Computer Engineering and Computer Science.
+						I’m passionate about embedded systems and building end-to-end devices that are clean, reliable, and user-friendly. 
+						Always looking for new ways to bridge hardware, software, and beyond!
 					</motion.p>
 
 					<motion.div
@@ -85,9 +87,9 @@ export function HeroSection() {
 							</Link>
 						</Button>
 						<Button size="lg" variant="outline" asChild>
-							<Link href="#" download>
+							<a href="/assets/KyraShi_Resume.pdf" download>
 								Download CV <FileDown className="ml-2 h-4 w-4" />
-							</Link>
+							</a>
 						</Button>
 					</motion.div>
 				</motion.div>

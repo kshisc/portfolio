@@ -17,7 +17,7 @@ export function SectionHeader({
 	return (
 		<div className={cn('space-y-2', className)}>
 			<h2 className="section-title">{title}</h2>
-			{description && <p className="text-muted-foreground max-w-2xl">{description}</p>}
+			{description && <p className="text-muted-foreground max-w-4xl">{description}</p>}
 			{children}
 		</div>
 	);

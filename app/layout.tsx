@@ -9,7 +9,7 @@ import { Footer } from '@/components/layout/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: 'Engineering Portfolio',
+	title: 'Kyra Shi',
 	description: 'A professional portfolio website for engineering students.',
 };
 
