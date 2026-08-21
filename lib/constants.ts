@@ -30,7 +30,7 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
-		title: 'Embedded Speedometer',
+		title: 'AVR Embedded Speedometer',
 		description:
 			'Measures the speed of a passing object using phototransistors and interrupt-driven timers',
 		image: '/assets/images/ee109_project.jpg',
@@ -46,6 +46,15 @@ export const projects: Project[] = [
 		tags: ['Python', 'Raspberry Pi', 'AWS IoT', 'Flask', 'Machine Learning'],
 		video: '/assets/videos/ee250_project.mp4',
 		repo: 'https://github.com/kshisc/EE250_Project',
+	},
+	{
+		title: 'STM32 Flight Recorder',
+		description:
+			'Uses IMU sensor data to calculate roll and pitch, detecting tilt and impact in real time',
+		image: '/assets/images/stm32_project.jpg',
+		tags: ['C', 'STM32', 'FreeRTOS', 'UART', 'Flash Memory', 'Watchdog Timer'],
+		video: '/assets/videos/stm32_project.mp4',
+		repo: 'https://github.com/kshisc/STM32_Project',
 	},
 	{
 		title: 'Bioadaptive Pulse-synced Music (BPM)',
