@@ -72,7 +72,7 @@ export function HeroSection() {
 						variants={fadeIn('up', 0.5)}
 						className="mt-6 text-base md:text-2xl text-muted-foreground max-w-3xl mx-auto"
 					>
-						I’m a junior at the University of Southern California, studying Computer Engineering and Computer Science.
+						I’m a senior at the University of Southern California, studying Computer Engineering and Computer Science.
 						I’m passionate about embedded systems and building end-to-end devices that are clean, reliable, and user-friendly. 
 						Always looking for new ways to bridge hardware, software, and beyond!
 					</motion.p>
